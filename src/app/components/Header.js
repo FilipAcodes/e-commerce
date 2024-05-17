@@ -2,10 +2,11 @@ import React from "react";
 import SearchFunction from "./HeaderComponents/SearchFunction";
 import CartIcon from "./HeaderComponents/CartIcon";
 import HomeIcon from "./HeaderComponents/HomeIcon";
+import "./header.css";
 
 const Header = () => {
   return (
-    <div>
+    <div className="header">
       <HomeIcon />
       <SearchFunction />
       <CartIcon />
