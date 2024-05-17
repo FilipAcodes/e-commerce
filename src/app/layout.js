@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "E-commerce",
+  title: "DoggoShop",
   description: "Project for Vanier college final semester 2024",
 };
 
