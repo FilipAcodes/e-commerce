@@ -1,14 +1,19 @@
+"use client";
 import "./globals.css";
-
-export const metadata = {
-  title: "DoggoShop",
-  description: "Project for Vanier college final semester 2024",
-};
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+        <link rel="icon" href="./favicon.ico"></link>
+      </head>
+      <body>
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
