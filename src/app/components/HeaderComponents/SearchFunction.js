@@ -1,9 +1,8 @@
-import React from "react";
 import "./search.css";
+import Image from "../../../../images/magnifying.png";
 const SearchFunction = () => {
   return (
-    <div className="searchInput">
-      <label htmlFor="search">Search:</label>
+    <div className="searchContainer">
       <input
         type="text"
         id="search"
@@ -11,6 +10,9 @@ const SearchFunction = () => {
         placeholder="Enter your query"
         className="searchInput"
       />
+      <button className="searchBtn">
+        <img src={Image.src} className="magnifyingIcon"></img>
+      </button>
     </div>
   );
 };

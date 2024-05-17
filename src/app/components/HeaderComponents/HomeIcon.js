@@ -10,8 +10,8 @@ const HomeIcon = () => {
   };
   return (
     <>
-      <button onClick={sendToHome}>
-        <img src={HomeImage.src} className="homeIcon"></img>
+      <button onClick={sendToHome} className="iconBtn">
+        <img src={HomeImage.src} className="Icon"></img>
       </button>
     </>
   );

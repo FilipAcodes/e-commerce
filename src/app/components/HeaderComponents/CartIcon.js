@@ -1,12 +1,18 @@
+"use client";
 import React from "react";
 import CartImage from "../../../../images/carticon.png";
 import "./cartIcon.css";
+import { useRouter } from "next/navigation";
 
 const CartIcon = () => {
+  const route = useRouter();
+  const sendToCart = () => {
+    route.push("/myCart");
+  };
   return (
     <>
-      <button>
-        <img src={CartImage.src} className="cartIcon"></img>
+      <button className="iconBtn" onClick={sendToCart}>
+        <img src={CartImage.src} className="Icon"></img>
       </button>
     </>
   );

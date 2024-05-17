@@ -1,9 +1,15 @@
-.cartIcon {
-  width: 50px;
-  height: 50px;
+.Icon {
+  width: 25px;
+  height: 25px;
 }
 
-.homeIcon {
-  width: 50px;
-  height: 50px;
+.iconBtn {
+  width: 5%;
+  border-radius: 8px;
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid black;
+  background-color: white;
+  margin: 2px;
 }
