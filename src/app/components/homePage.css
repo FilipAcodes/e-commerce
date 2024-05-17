@@ -1,0 +1,65 @@
+.landingPage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  width: 80%;
+  height: 70%;
+  max-height: 70%;
+  max-width: 80%;
+  border: 3px solid black;
+  border-radius: 16px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.landingh1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.doggoLandingPicture {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 16px 16px 0px;
+}
+.doggoPic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex1Container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.dogPawImg {
+  width: 50%;
+  height: 50%;
+}
+
+.sherlockBones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.inspirational1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+.inspirational2 {
+  font-size: 30px;
+  font-weight: bold;
+}

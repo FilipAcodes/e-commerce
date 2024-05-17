@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <h1>Welcome to DoggoShop</h1>
       <HomePage />
       <Footer />
     </main>

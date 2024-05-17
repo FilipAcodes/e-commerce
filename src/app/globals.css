@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap");
 html,
 body,
 div,
@@ -130,4 +130,5 @@ table {
 
 body {
   background-color: #e3e6e6;
+  font-family: "Radio Canada Big", sans-serif;
 }
