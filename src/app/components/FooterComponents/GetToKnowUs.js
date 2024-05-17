@@ -1,11 +1,15 @@
 import React from "react";
-
+import "./footer.css";
 const GetToKnowUs = () => {
   return (
-    <>
-      <a href="google.com">Careers</a>
-      <a href="google.com">Our Staff</a>
-    </>
+    <div className="footerContainer">
+      <a href="/" className="deadLink">
+        Careers
+      </a>
+      <a href="/" className="deadLink">
+        Our Staff
+      </a>
+    </div>
   );
 };
 

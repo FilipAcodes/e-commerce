@@ -1,0 +1,9 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.deadLink {
+  text-decoration: none;
+}
