@@ -12,6 +12,7 @@
 .searchBtn {
   border-radius: 0px 8px 8px 0px;
   border-left: 1px solid black;
+  cursor: pointer;
 }
 
 .searchContainer {
